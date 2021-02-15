@@ -30,7 +30,7 @@ class DashboardUser extends CI_Controller
     {
         
         $this->load->View('user/notification');
-       
+        
     }
 
 }
