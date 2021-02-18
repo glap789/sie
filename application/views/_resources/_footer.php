@@ -58,6 +58,9 @@
   <script src="<?php echo base_url();?>assets/libs/litepicker/dist/litepicker.js"></script>
   <script src="<?php echo base_url();?>assets/libs/choices.js/public/assets/scripts/choices.js"></script>
 
+  <script src="<?php echo base_url();?>assets/js/js-externo.js"></script>
+  
+
 
 
     
