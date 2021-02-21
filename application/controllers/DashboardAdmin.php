@@ -8,7 +8,7 @@ class DashboardAdmin extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->database();
-       // $this->load->model('usuario_model');
+        $this->load->model('admin_model');
 
         $this->load->library('session');
         $this->load->library(['ion_auth', 'form_validation']);
@@ -22,7 +22,12 @@ class DashboardAdmin extends CI_Controller
 
 	public function encuestas()
 	{
-		$this->load->View('admin/AdminEncuestas');
+		$query = $this->admin_model->get_surveys(1);
+
+		$data['surveys'] =  $query;
+		
+
+		$this->load->View('admin/AdminEncuestas', $data);
 	}
 
 	public function notificaciones()
