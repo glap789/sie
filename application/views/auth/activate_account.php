@@ -1,10 +1,8 @@
 
 <?php  $this->load->view('_resources/_header')?>
 
-
-<div class=" border-top-wide border-primary d-flex flex-column">
-    
-    <div class="flex-fill d-flex flex-column justify-content-center py-4">
+ 
+    <div class="flex-fill d-flex flex-column justify-content-center py-4  border-top-wide border-primary ">
       <div class="container-tight py-6">
         <div class="text-center mb-4">
           <a href="."><img src="../assets/dashboard/brand/UPAOlogin.png" class="h-9" alt=""></a>
@@ -49,23 +47,6 @@
 
 
 
-</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php  $this->load->view('_resources/_footer')?>
