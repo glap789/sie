@@ -71,7 +71,7 @@ setInterval(displayData, 5000);
             <div class="row align-items-center">
                 <div class="col">
                     <h2 class="page-title">
-                        Cursos y Especialidades
+                        Estudios de Postgrado
                     </h2>
                 </div>
             </div>
