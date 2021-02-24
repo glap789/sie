@@ -17,7 +17,9 @@
     <link href="<?php echo base_url();?>assets/css/demo.min.css" rel="stylesheet"/>
     <link href="<?php echo base_url();?>assets/css/css-externo.css" rel="stylesheet"/>
       
-      
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/email.multiple.css">
+    
+
       
   </head>
     
