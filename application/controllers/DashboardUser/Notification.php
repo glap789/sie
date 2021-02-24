@@ -2,7 +2,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class DashboardUser extends CI_Controller
+class Notification extends CI_Controller
 {
 	function __construct()
 	{
@@ -17,21 +17,10 @@ class DashboardUser extends CI_Controller
 
 	public function index()
     {
-        $this->load->View('user/dashUser');
-    }
-    
-    public function survey()
-    {
-        
-        $this->load->View('user/survey');
-    }
-    
-    public function notification()
-    {
-        
         $this->load->View('user/notification');
-        
     }
+    
+    
 
 }
 

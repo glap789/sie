@@ -1,41 +1,3 @@
-<!--
-
-<h1><?php echo lang('login_heading');?></h1>
-<p><?php echo lang('login_subheading');?></p>
-
-<div id="infoMessage"><?php echo $message;?></div>
-
-<?php echo form_open("auth/login");?>
-
-  <p>
-    <?php echo lang('login_identity_label', 'identity');?>
-    <?php echo form_input($identity);?>
-  </p>
-
-  <p>
-    <?php echo lang('login_password_label', 'password');?>
-    <?php echo form_input($password);?>
-  </p>
-
-  <p>
-    <?php echo lang('login_remember_label', 'remember');?>
-    <?php echo form_checkbox('remember', '1', FALSE, 'id="remember"');?>
-  </p>
-
-
-  <p><?php echo form_submit('submit', lang('login_submit_btn'));?></p>
-
-<?php echo form_close();?>
-
-<p><a href="forgot_password"><?php echo lang('login_forgot_password');?></a></p>
-
-
-
-
--->
-
-
-
 
 
 
@@ -46,8 +8,10 @@
 
 
 
-<body class="antialiased border-top-wide border-primary d-flex flex-column">
-  <div class="flex-fill d-flex flex-column justify-content-center py-4">
+
+
+  <div class="flex-fill d-flex flex-column justify-content-center py-4  border-top-wide border-primary ">
+
     <div class="container-tight py-6">
       <div class="text-center mb-4">
         <img src="<?php echo base_url(); ?>assets/dashboard/brand/UPAOlogin.png" class="h-6" alt="">
@@ -89,10 +53,12 @@
       <div class="text-center text-muted mt-3">
         No tienes cuenta? <a href="<?php echo base_url('/auth/activate_account');?>">Activar mi cuenta</a>
       </div>
-    </div>
+  
+
+
+      </div>
+  
+
+  
+  
   </div>
-
-
-
-
-  <?php  $this->load->view('_resources/_footer')?>
