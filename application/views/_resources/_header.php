@@ -16,28 +16,19 @@
     <link href="<?php echo base_url();?>assets/css/tabler-vendors.min.css" rel="stylesheet"/>
     <link href="<?php echo base_url();?>assets/css/demo.min.css" rel="stylesheet"/>
     <link href="<?php echo base_url();?>assets/css/css-externo.css" rel="stylesheet"/>
-
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/dropzone.css' type='text/css' rel='stylesheet'>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/dropzone.js' type='text/javascript'></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-
-
-
-    <script>
-    // Add restrictions
-    Dropzone.options.fileupload = {
-      acceptedFiles: 'image/*',
-      dictDefaultMessage: "Arrastra las imagenes aquí: \u2764",
-      maxFilesize: 50 // MB
-        
-    };
-        
-   
-    </script>
       
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/email.multiple.css">
+    
+    <style type="text/css">
+    .bg-border {
+        border: 1px solid #ddd;
+        border-radius: 4px 4px;
+        padding: 15px 15px;
+    }
+    </style> <!-- DATATABLES PARA BUSQUEDA ALUMNOS -->
       
   </head>
     
     <body class="antialiased ">
         
-         <div class="page" style="min-height: 97vh;">
+         <div class="page">

@@ -56,8 +56,10 @@
                     </span>
                   </a>
                 </li>
+
+
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url("/DashboardAdmin/encuestas");?>" >
+                  <a class="nav-link" href="<?php echo base_url("/DashboardAdmin/survey");?>" >
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" /><rect x="9" y="3" width="6" height="4" rx="2" /><line x1="9" y1="12" x2="9.01" y2="12" /><line x1="13" y1="12" x2="15" y2="12" /><line x1="9" y1="16" x2="9.01" y2="16" /><line x1="13" y1="16" x2="15" y2="16" /></svg>
                     </span>
                     <span class="nav-link-title">
@@ -65,8 +67,20 @@
                     </span>
                   </a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url("/DashboardAdmin/notificaciones");?>" >
+                  <a class="nav-link" href="<?php echo base_url("/DashboardAdmin/searchStudent");?>" >
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v4.5" /><circle cx="16.5" cy="17.5" r="2.5" /><line x1="18.5" y1="19.5" x2="21" y2="22" /></svg>
+                    </span>
+                    <span class="nav-link-title">
+                      Buscar Datos Egresados
+                    </span>
+                  </a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="<?php echo base_url("/DashboardAdmin/notification");?>" >
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" /><line x1="12" y1="12" x2="12" y2="12.01" /><line x1="8" y1="12" x2="8" y2="12.01" /><line x1="16" y1="12" x2="16" y2="12.01" /></svg>
                     </span>
                     <span class="nav-link-title">
